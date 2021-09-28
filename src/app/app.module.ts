@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BarraContatoComponent } from './barra-contato/barra-contato.component';
 import { BarraMenuComponent } from './barra-menu/barra-menu.component';
+import { BodyHomeComponent } from './body-home/body-home.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BarraContatoComponent,
-    BarraMenuComponent
+    BarraMenuComponent,
+    BodyHomeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
